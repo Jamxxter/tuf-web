@@ -1,7 +1,4 @@
 @media (max-width:1450px){
-    #tuf-text-box h2,p{
-        margin-left: 7rem;
-    }
     #tuf-text-box h2{
         font-size: 5rem;
     }
@@ -15,6 +12,13 @@
         width: unset !important;
         margin: 0;
     }
+    #sixth-hero-inner-2 .col-lg-6 #text-box{
+        width: unset !important;
+    }
+    #sixth-hero-section-2{
+        padding: 0 !important;
+    }
+
 }
 @media (max-width:1220px){
     #tuf-text-box h2{
@@ -111,6 +115,7 @@
     }
     .third-hero video{
         width: unset !important;
+    
     }
     #third-hero-inner{
         justify-content: center;
@@ -130,14 +135,56 @@
     }
     .fourth-hero div{
         padding-top: 50px !important;
+        width: unset !important;
     }
     #fourth-hero-inner{
         flex-direction: column-reverse;
     }
     #fourth-hero-inner p{
         margin: 0 !important;
+        font-size: 16px;
     }
-    #fourth-hero-inner div{
+    .fifth-hero div{
+        padding-top: 50px !important;
+    }
+    .fifth-hero p{
+        font-size: 16px;
+    }
+    .fifth-hero .col-lg-6{
+        padding: 0 !important;
+    }
+    #fifth-hero-inner{
+        flex-direction: column-reverse !important;
+    }
+    #fifth-hero-inner div{
+        padding: 0;
+    }
+    #fifth-hero-inner h2, .fifth-hero p{
         width: unset !important;
+        margin-left: 0;
     }
+    #sixth-hero-section-1{
+        width: unset !important;
+        padding-top: 0 !important;
+    }
+    #sixth-hero-section-1 h3{
+        font-size: 2rem !important;
+    }
+    #sixth-hero-section-1 p{
+        margin: 0;
+    }
+    #sixth-hero-inner-1 img{
+        padding-top: 0 !important;
+    }
+    #sixth-hero-section-2{
+        justify-content: center;
+        width: unset !important;
+        padding-top: 5rem !important;
+    }
+    #sixth-hero-inner-2{
+        flex-direction: column !important;
+    }
+    
+    
+
 }
