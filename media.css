@@ -18,6 +18,18 @@
     #sixth-hero-section-2{
         padding: 0 !important;
     }
+    .fifth-hero h2, .fifth-hero p{
+        width: unset !important;
+    }
+    #fourth-hero-inner .col-lg-6 {
+        width: unset !important;
+    }
+    #fourth-hero-inner{
+        flex-direction: column;
+    }
+    #sixth-hero-section-1{
+        width: unset !important;
+    }
 
 }
 @media (max-width:1220px){
@@ -93,14 +105,13 @@
         height: 360px;
     }
     #tuf-text-box{
-        margin-top: 0;
         line-height: 1rem;
     }
     #tuf-text-box h2{
         font-size: 2rem;
         margin: 0;
     }
-    #tuf-text-box p{
+    #tuf-text-box h3{
         font-size: 1.5rem;
         margin: 0;
     }
@@ -184,7 +195,29 @@
     #sixth-hero-inner-2{
         flex-direction: column !important;
     }
-    
-    
-
+    #footer-asus-logo{
+        flex-wrap: wrap;
+    }
+    #footer-links{
+        flex-direction: column;
+        margin-top: 0px;
+      }
+      .links{
+        display: none;
+        
+      }
+      .collapsible{
+        visibility: visible;
+        padding: 10px 2rem 10px 2rem ;
+        
+    }
+    .content{
+        visibility: visible;;
+        
+    }
+    hr{
+        height: 1rem;
+        color: #999999;
+        visibility: visible;
+    }
 }

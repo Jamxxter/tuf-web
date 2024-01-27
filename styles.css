@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+p{
+    font-size: 22px !important;
+}
 
 
 /* Drop Down */
@@ -143,14 +146,16 @@ ul{
     background-position:center;
     height: 860px;
 }
-.first-hero h2, .first-hero p{
+.first-hero h2, .first-hero h3{
     text-align: center;
     color: white;
     font-family: MachineBT;
-    font-size: 3rem;
 }
 .first-hero h2{
     font-size: 6rem;
+}
+.first-hero h3{
+    font-size: 4rem;
 }
 #tuf-text-box{
     margin-top: 16rem;
@@ -183,15 +188,18 @@ ul{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
 }
-.third-hero .col-lg-6 h4, h2{
+.third-hero .col-lg-6 h2{
     font-family: Rubik;
     color: #ffa800 ;
+    align-items: center;
+    
 }
 .third-hero .col-lg-6 p{
     color: #fff;
     font-size: 1rem;
-    text-align: start;
+    text-align: center;
     font-family: Rubik;
     width: 600px;
 }
@@ -221,6 +229,7 @@ ul{
 }
 .fifth-hero h2{
     font-size: 2rem;
+    color: #ffa800;
 }
 .fifth-hero p{
     font-size: 1.5rem;
@@ -243,3 +252,132 @@ ul{
 #design{
     padding-top: 3rem;
 }
+#hdmi-img{
+    width: 200px;
+}
+footer{
+    align-items: center;
+}
+footer .col-lg-12{
+    flex-direction: column;
+    align-items: center;
+}
+#footer-inner{
+    flex-direction: column;
+}
+footer ul li{
+    color: #999999;
+    list-style-type: inherit;
+    font-size: 12px;
+}
+footer ul{
+    line-height: 1.5rem;
+}
+#footer-asus-logo{
+    color: #999999;
+    flex-direction: row;
+    justify-content: center;
+    gap: 17px;
+    padding: 5rem 0 3rem 0;
+}
+#footer-asus-logo p{
+    font-size: 12px !important;
+    margin-bottom: 0px;
+}
+#arrow-right-white{
+    width: 20px;
+}
+#footer-links{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    line-height: 1rem;
+    margin-top: -42rem;
+}
+#footer-links ul li{
+    list-style: none
+}
+#footer-links a{
+    text-decoration: none !important;
+    color: #999999;
+}
+#footer-links a:hover{
+    text-decoration: underline !important;
+}
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    visibility: hidden;
+  }
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1rem;
+  }
+.collapsible{
+    width: 30rem;
+    background-color: transparent !important;
+    color: #999999;
+    visibility: hidden;
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+}
+.collapsible:hover{
+    color: #fff;
+}
+.content a{
+    text-decoration: none;
+    color: #999999;
+}
+.content a:hover{
+    text-decoration: underline;
+    background-color: grey;
+    color: white;
+}
+.content{
+    visibility: hidden;
+    padding-left: 4rem;
+    line-height: 2rem;
+}
+hr{
+    height: 1rem;
+    color: #999999;
+    visibility: hidden;
+}
+.inner-smi{
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+}
+.social-media-icons{
+    background-color: #262626;
+    height: 350px;
+}
+.fa {
+    padding: 20px;
+    font-size: 20px !important;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  .fa:hover {
+      opacity: 0.7;
+      color: white;
+  }
+  .fa{
+    background: #4d4d4d;
+    color: white;
+  }
